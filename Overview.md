@@ -1,5 +1,5 @@
 # funkradio.start.here
-FunkRadio is a linux bash script for listening international news and your favorite music.
+FunkRadio is a linux bash script for listening international news and your own favorite music.
 
 funkRadio - world news and your favorite music
 Listening to radio can be a laid-back way to keep yourself up to date with world events. However, broadcast radio cannot take into account individual music preferences of individuals. So sooner or later we turn the radio off.
@@ -8,7 +8,7 @@ These project presents a Linux bash shell script that combines the best of both 
 
 The script is called funkRadio. You can use it to download and present news broadcasts from internet radio stations. Music comes by the courtesy of your own favourite mp3 files.
 
-Setting up the funkRadio service
+## Setting up the funkRadio script
 The funkRadio.sh script has been tested in Arch Linux, Debian and Ubuntu environments. Other Linux distributions are probably OK as long as you can install these packages:
 
 vlc (includes cvlc)
@@ -30,7 +30,7 @@ Then, create a log file:
 touch ~/funkRadio/Archive/funkRadiolog.txt
 If you have a music playlist of the m3u format, please place a copy of it in the folder ~/funkRadio/. In this case you will not need to make a playlist when you launch funkRadio for the first time.
 
-##Lauching funkRadio and making a music playlist
+## Lauching funkRadio and making a music playlist
 
 If there is no music playlist available, please check in which directory you have your mp3 files (usually ~/Music).
 
@@ -51,7 +51,7 @@ The making of the playlist is started when you type 'start' instead of another k
 
 When the playlist is ready, your terminal will show you the funkRadio control panel.
 
-funkRadio Control Panel
+## funkRadio Control Panel
 The control panel presents a number of options and associated numbers used to select those options.
 
 You can select a station from which the latest news broadcast will be downloaded. Try option '1' - it downloads some news broadcasts in English.
@@ -62,7 +62,7 @@ While listening, you can toggle between music and news by typing 'Ctrl + C'.
 
 You can turn the radio off by typing 'CTRL + Z'. The command sends the program to the background. Or you can select the last option on the control panel.
 
-Additional information
+### Additional information
 Here are some links demonstrating other ways to to work with podcasts on command line.
 
 A script for downloading podcasts: https://github.com/ellencubed/bashpodder
