@@ -1,12 +1,11 @@
 # funkradio.start.here
-FunkRadio is a linux bash script for listening international news and your own favorite music.
+FunkRadio is an enternaining Linux bash script. With it you can listen international broadcast news and enjoy your own favorite music.
 
-funkRadio - world news and your favorite music
-Listening to radio can be a laid-back way to keep yourself up to date with world events. However, broadcast radio cannot take into account individual music preferences of individuals. So sooner or later we turn the radio off.
+Listening to radio is a laid-back way to keep yourself up to date with world events. However, broadcast radio cannot take into account individual music preferences. So sooner or later you want to turn the radio off.
 
-These project presents a Linux bash shell script that combines the best of both worlds -- up-to-date international news and your favorite music.
+This project presents a Linux bash shell script that combines the best of both worlds -- up-to-date international news and your favorite music.
 
-The script is called funkRadio. You can use it to download and present news broadcasts from internet radio stations. Music comes by the courtesy of your own favourite mp3 files.
+The script is called funkRadio. You can use it to download and present news broadcasts from internet radio stations. Music comes by the courtesy of your own mp3 files.
 
 ## Setting up the funkRadio script
 The funkRadio.sh script has been tested in Arch Linux, Debian and Ubuntu environments. Other Linux distributions are probably OK as long as you can install these packages:
@@ -28,15 +27,11 @@ chmod u+x  ~/funkRadio/funkRadio.sh
 Then, create a log file:
 
 touch ~/funkRadio/Archive/funkRadiolog.txt
-If you have a music playlist of the m3u format, please place a copy of it in the folder ~/funkRadio/. In this case you will not need to make a playlist when you launch funkRadio for the first time.
+If you have a music playlist of the m3u format, please place a copy of it in the folder ~/funkRadio/. The playlist should be a simple filelist. For instance, playlists created by VLC are not OK for our purposes. 
 
 ## Lauching funkRadio and making a music playlist
 
-If there is no music playlist available, please check in which directory you have your mp3 files (usually ~/Music).
-
-It is OK if your mp3 files are in subdirectories. You will be asked to indicate that directory when running funkRadio for the first time - or later on - when you want to make a new playlist.
-
-funkRadio is launched by typing on the terminal
+Launche funkRadio by typing on the terminal
 
 ~/funkRadio/funkRadio.sh
 If there is no music playlist in the directory ~/funkRadio/, the script helps you to create one. First, it will guide you to select a directory which, or its subdirectories, contain mp3 files.
@@ -56,11 +51,11 @@ The control panel presents a number of options and associated numbers used to se
 
 You can select a station from which the latest news broadcast will be downloaded. Try option '1' - it downloads some news broadcasts in English.
 
-After having selected stations, you can start to listen to news and music by selecting option '13 Listen to the funkRadio'.
+Wait a minute for the downloads to complete. Then start to listening by selecting option '13 Listen to the funkRadio' in the Control Panel.
 
 While listening, you can toggle between music and news by typing 'Ctrl + C'.
 
-You can turn the radio off by typing 'CTRL + Z'. The command sends the program to the background. Or you can select the last option on the control panel.
+You can turn the radio off by typing 'CTRL + Z'. The command sends the program to the background. The script is turner off also, it you select the last option on the control panel.
 
 ### Additional information
 Here are some links demonstrating other ways to to work with podcasts on command line.
