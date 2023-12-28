@@ -10,14 +10,15 @@ The script is called funkRadio. You can use it to download and present news broa
 ## Setting up the funkRadio script
 The funkRadio.sh script has been tested in Arch Linux, Debian and Ubuntu environments. Other Linux distributions are probably OK as long as you can install these packages:
 
-vlc (includes cvlc)
-wget
-mpg123
-ffmpeg (includes speechnorm filter)
-youtube-dl
-curl
-shuf
-bc (for calculations)
+- vlc (includes cvlc)
+- wget
+- mpg123
+- ffmpeg (includes speechnorm filter)
+- youtube-dl
+- curl
+- shuf
+- bc (for calculations)
+  
 After installing these packages, please create new directories in your home directory by typing on the terminal:
 
 mkdir ~/funkRadio ~/funkRadio/Archive ~/funkRadio/Talk 
