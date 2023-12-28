@@ -1,5 +1,5 @@
 # funkradio.start.here
-FunkRadio is an enternaining Linux bash script. With it you can listen international broadcast news and enjoy your own favorite music.
+FunkRadio is an entertaining Linux bash script. With it you can listen international broadcast news and enjoy your own favorite music.
 
 Listening to radio is a laid-back way to keep yourself up to date with world events. However, broadcast radio cannot take into account individual music preferences. So sooner or later you want to turn the radio off.
 
